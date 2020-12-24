@@ -15,11 +15,10 @@ body{
             
             display: inline-block;
             width: 100%;
-            background-color: yellow;
         }
             header > img {
                 display: inline-block;
-                float: left;
+                float: teft;
                 width: 50px;
             }
             nav {
@@ -37,11 +36,22 @@ body{
                     padding-right: 20px;         
                     text-decoration: none;         
                 }         
-               nav > a:nth-last-of-type {
+                nav > a:last-of-type {
                     text-transform: uppercase;
-                    border: 5px, solid, black ;
-                    margin-top: -5;
+                    border: 5px solid #999;
+                    margin-top: -5px;
+                    border-radius: 20px;
+
                 }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+
+                    nav > a:last-of-type:hover {
+                        text-decoration: none;
+                        background-color: #999;
+                        color: #fff;
+                    }
 
         section{
             margin-top: 50px;
