@@ -15,6 +15,7 @@ body{
             
             display: inline-block;
             width: 100%;
+            background-color: yellow;
         }
             header > img {
                 display: inline-block;
@@ -24,10 +25,24 @@ body{
             nav {
                 display: inline-block;
                 float: right;
+                margin-top: 10px;
             }
                 a {
                     display: inline-block;
+                    float: left;
+                    line-height: 20px;
+                    font-size: 16px;         
+                    padding: 5px;         
+                    padding-left: 20px;         
+                    padding-right: 20px;         
+                    text-decoration: none;         
+                }         
+               nav > a:nth-last-of-type {
+                    text-transform: uppercase;
+                    border: 5px, solid, black ;
+                    margin-top: -5;
                 }
+
         section{
             margin-top: 50px;
             display: inline-block;
@@ -48,8 +63,10 @@ body{
                 }
                 p {
                     display: inline-block;
+                    width: 100%;
                     font-size: 30px;
                     margin: 0;
+                    line-height: ;
                 }
             section > img {
                 display: inline-block;
